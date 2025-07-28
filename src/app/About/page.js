@@ -2,7 +2,6 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 const About = () => {
-  // Education data as array of objects
   const education = [
     {
       degree: "Bachelor of Computer Software Engineering",
@@ -24,7 +23,6 @@ const About = () => {
 
   return (
     <div className="bg-white w-full h-full px-10 pt-5 shadow-md rounded">
-      {/* ABOUT ME Section */}
       <div className="flex gap-12">
         <h3 className="text-3xl font-semibold text-gray-800">ABOUT ME</h3>
         <div className="mt-4 bg-gradient-to-r from-[#FF9C1A] to-[#ED250A] w-96 h-0.5"></div>
@@ -37,7 +35,6 @@ const About = () => {
         enhancing user experience.
       </p>
 
-      {/* EDUCATION Section */}
       <div className="pt-8">
 <h3 className="text-2xl font-semibold text-gray-800 flex items-center gap-2">
   Education

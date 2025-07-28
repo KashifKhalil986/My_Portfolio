@@ -1,14 +1,14 @@
 'use client';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMoon, faHouse, faCode, faFolderOpen, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faCode, faFolderOpen, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { useRouter } from 'next/navigation';
 const Navbar = () => {
   const router = useRouter();
   const navItems = [
     { name: 'Home', icon: faHouse,path:'/' },
     { name: 'Experience', icon: faCode ,path:'/experience' },
-    { name: 'Projects', icon: faFolderOpen,path:'/projects' },
+    { name: 'Projects', icon: faFolderOpen,path:'/project' },
     { name: 'Contact', icon: faEnvelope,path:'/contact' },
   ];
 

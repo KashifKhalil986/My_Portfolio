@@ -26,7 +26,7 @@ const Sidebar = () => {
     const contactInfo = [
         {
             type: 'Location',
-            value: 'Peshawar, Khyber Pakhtunkhwa , Pakistan',
+            value: 'IT Park Peshawar, Khyber Pakhtunkhwa, Pakistan',
             icon: faLocationDot,
         },
         {
@@ -44,10 +44,10 @@ const Sidebar = () => {
         <>
             <div className="relative w-full flex items-start justify-center rounded-xl border-2 border-gray-200 shadow-2xl ">
                 <div className="absolute -top-24 left-1/2 transform -translate-x-1/2 z-10">
-                    <img src="/picture.jpg" alt="Logo" className="w-40 h-40 rounded-lg shadow-lg" />
+                    <img src="/picture.jpg" alt="Logo" className="w-44 h-44 rounded-lg shadow-lg" />
                 </div>
                 <div className="w-full absolute shadow-md bg-white text-center py-4">
-                    <div className="mt-16">
+                    <div className="mt-20">
                         <h1 className="text-2xl font-bold text-gray-800">M Kashif Khalil</h1>
                         <p className="text-sm text-gray-400 mt-1">Frontend Developer</p>
                     </div>
